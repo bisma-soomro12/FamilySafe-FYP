@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ContactInfo"
+    android:background="@color/light_Gray_type"
+    >
+
+    <ImageView
+        android:id="@+id/police_siren"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:layout_gravity="fill_horizontal"
+        android:layout_marginTop="150dp"
+        android:src="@drawable/police_siren" />
+
+    <Button
+        android:id="@+id/help_button"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/krona_one"
+        android:text="Help"
+        android:textColor="@color/light_Gray_type"
+        android:textSize="40sp"
+        app:layout_anchor="@+id/police_siren"
+        app:layout_anchorGravity="bottom|center"
+        android:backgroundTint="@color/Dark_Gray"
+        />
+    <TextView
+        android:id="@+id/x"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_gravity="center_horizontal"
+        android:textColor="@color/light_Gray_type"
+        />
+    <TextView
+        android:id="@+id/y"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/light_Gray_type"
+        />
+    <TextView
+        android:id="@+id/z"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:textColor="@color/light_Gray_type"
+        />
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottomNavView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:layout_margin="30dp"
+        android:background="@drawable/nav_round_corners"
+        android:elevation="2dp"
+        app:menu="@menu/navbar_item"
+        app:itemIconTint="@color/light_Gray_type"
+        app:itemTextColor="@color/light_Gray_type"
+        >
+
+    </com.google.android.material.bottomnavigation.BottomNavigationView>
+
+
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ContactInfo"
+    android:background="@color/light_Gray_type"
+    >
+
+<!--<TextView-->
+<!--    android:id="@+id/username_txt"-->
+<!--    android:layout_width="wrap_content"-->
+<!--    android:layout_height="wrap_content"-->
+<!--    android:text="User Name"-->
+<!--    android:layout_gravity="right"-->
+<!--    android:textSize="30sp"-->
+<!--    />-->
+
+
+<!--    <TextView-->
+<!--        android:id="@+id/password_txt"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:textSize="30sp"-->
+<!--        android:text="Password" />-->
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottomNavView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:layout_margin="30dp"
+        android:background="@drawable/nav_round_corners"
+        android:elevation="2dp"
+        app:menu="@menu/navbar_item"
+        app:itemIconTint="@color/light_Gray_type"
+        app:itemTextColor="@color/light_Gray_type"
+        >
+
+    </com.google.android.material.bottomnavigation.BottomNavigationView>
+
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/contacts_recycler"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

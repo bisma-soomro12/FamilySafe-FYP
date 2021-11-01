@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">Family Safe</string>
+    <string name="title_activity_map_dashboard">Map</string>
+    <string-array name="c_name">
+        <item>"Baba"</item>
+        <item>"Bhai"</item>
+        <item>"Baba"</item>
+        <item>"Bhai"</item>
+        <item>"Bhai"</item>
+        <item>"Baba"</item>
+        <item>"Bhai"</item>
+        <item>"Baba"</item>
+        <item>"Bhai"</item>
+        <item>"Bhai"</item>
+
+    </string-array>
+
+    <string-array name="c_no">
+        <item>"03210320403"</item>
+        <item>"03331233133"</item>
+        <item>"03210320403"</item>
+        <item>"03331233133"</item>
+        <item>"03210320403"</item>
+        <item>"03331233133"</item>
+        <item>"03210320403"</item>
+        <item>"03331233133"</item>
+        <item>"03210320403"</item>
+        <item>"03331233133"</item>
+
+    </string-array>
+</resources>

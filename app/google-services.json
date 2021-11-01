@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "426950520729",
+    "project_id": "family-safe-d894b",
+    "storage_bucket": "family-safe-d894b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:426950520729:android:369ab30a85a121e73e6d08",
+        "android_client_info": {
+          "package_name": "com.example.familysafe"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "426950520729-kdquhf88vfh9ofvqse1nkqnrrth2j2rk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBdUVduHZ4NHhGhoEIbI9USq7HzNsZc168"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "426950520729-kdquhf88vfh9ofvqse1nkqnrrth2j2rk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
